@@ -17,7 +17,7 @@ some preamble code
 \usepackage{setspace}
 ```
 
-`uni.bib` is the bibliography file.
+`uni.bib` is the bibliography file, which resides in the current working directory.
 
 compiling is as follows:
 
@@ -30,8 +30,13 @@ replace `test.tex` and `test.bcf` with your corresponding file names.
 
 ## dependencies (arch linux)
 `texlive-bibtexextra`
+
 `texlive-langeuropean`
+
 `texlive-latex`
+
 `texlive-latexextra`
+
 `texlive-latexrecommended`
+
 `biber`
