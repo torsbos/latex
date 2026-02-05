@@ -4,23 +4,11 @@
 
 document format is `.tex`, as usual. 
 
-some preamble code
-
-```
-\documentclass[12pt,a4paper]{article}
-\usepackage[T1]{fontenc}
-\usepackage[swedish]{babel}
-\usepackage[margin=1in]{geometry}
-\usepackage{csquotes}
-\usepackage{url}
-\usepackage[style=apa, backend=biber, sortcites, url=true]{biblatex}
-\addbibresource{uni.bib}
-\usepackage{setspace}
-```
+for preamble code, check `test.tex`.
 
 `uni.bib` is the bibliography file, which resides in the current working directory.
 
-when citing, use `\autocite`, `textcite`  or `nocite`.
+when citing, use `\autocite`, `\textcite`  or `\nocite`.
 
 compiling is as follows:
 
