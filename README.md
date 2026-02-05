@@ -12,12 +12,15 @@ some preamble code
 \usepackage[swedish]{babel}
 \usepackage[margin=1in]{geometry}
 \usepackage{csquotes}
+\usepackage{url}
 \usepackage[style=apa, backend=biber, sortcites, url=true]{biblatex}
 \addbibresource{uni.bib}
 \usepackage{setspace}
 ```
 
 `uni.bib` is the bibliography file, which resides in the current working directory.
+
+when citing, use `\autocite`, `textcite`  or `nocite`.
 
 compiling is as follows:
 
